@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="Treant.css" type="text/css">
+    <script src="interface.js"></script>
+    <title>Lista 12</title>
+</head>
+<body>
+<div id="jumb" class="jumbotron text-center" style="margin-bottom:0">
+    <h1>Programação Estruturada</h1>
+    <p>Trabalho Final</p> 
+</div>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="../../../index.html">HOME</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../../array/lista02/ex1.html">Arrays</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../../../listas/lista04/ex5/app.html">Pilhas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../../../listas/lista06/ex05.html">Filas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../../../listas/lista 08/index.html">Lista</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Conjunto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="lista12.html">Árvore Binária</a>
+                </li>  
+                <li class="nav-item">
+                    <a class="nav-link" href="../../../listas/sobre/sobre.html">Sobre</a>
+                </li>  
+            </ul>
+        </div>  
+    </nav>
+    
+    <div class="container">
+        <div class="col-sm-9">
+   
+            <h1>Lista Programção Estruturada </h1>
+            <h2>Árvores</h2>
+            <p id="avisos">avisos_aparecem_aqui</p>
+            <form>
+                <div class="form-group">
+                <label >Digite um valor para a Árvore</label>
+                <input value="" type="text" class="form-control" id="entrada" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">Somente números serão aceitos.</small>
+                </div>
+            </form>
+            <p>
+                <input type="button" class="btn btn-success" value="Adicionar" onclick="btnAdd()">
+                <input type="button" class="btn btn-danger" value="Esvaziar" onclick="btnClear()">
+                <input type="button" class="btn btn-info" value="Maior" onclick="btnMax()">
+                <input type="button" class="btn btn-warning" value="Menor" onclick="btnMin()">
+                <input type="button" class="btn btn-primary" value="Procura" onclick="btnSearch()">
+                <!-- <input type="button" class="btn btn-warning" value="Balancear" onclick="btnBalancear()"> -->
+            </p>
+
+
+        <div id="tree-simple"></div>
+    </div>
+</div>
+    <script src="vendor/raphael.js"></script>
+    <script src="Treant.js"></script>
+    <script src="script.js"></script>
+    <script src="interface.js"></script>
+</body>
+</html>

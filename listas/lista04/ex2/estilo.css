@@ -1,0 +1,18 @@
+*{
+    text-align: center;
+    margin: 0px auto;
+}
+
+#avisos{
+    font-style: Arial;
+    color: red;
+}
+P {
+    text-align: center;
+}
+
+
+#entrada{
+    border-radius: 1px ;
+    
+}

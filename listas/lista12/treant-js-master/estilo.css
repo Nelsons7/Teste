@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: auto 0;
+}
+
+#tit_logo{
+	text-align: center;
+	font-family: Arial;
+	color: #ffff;
+}
+#topo{
+	background-color: #990054;
+
+}
+.navbar {
+	background-color: #a00e3a !important;
+
+
+}
+.navbar-dark .navbar-nav a.nav-link {
+	font-family: 'Roboto Condensed', Helvetica, Arial;
+	color: #FFF;
+	/* text-transform: uppercase; */
+	padding: 10px 25px;
+	margin: 0;
+	border-radius: 1px;
+}
+.junbotron{
+	border-radius: none;
+}
+label {
+	text-align: center;
+}
+/* teste */
+
+
+input[type="button"]:disabled {
+    background-color: gray;
+}
+
+input[type="text"] {   
+    padding: 15px 20px;
+    width: 300px;
+    text-align: center;
+    font-size: 30px;
+}
+
+div.items {
+    background-color: lightgray;
+    width: 70px;
+    padding: 15px 20px;
+    border: 2px solid white; 
+}
+
+.visualNode {
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 50px;
+}
+
+.visualNodeNull {
+    background-color: lightgray;
+}
+#avisos{
+    color: red;
+} 
+h1 {
+    text-align: center;
+}
+body{
+    background-color: rgb(42, 40, 48);
+    color: #fff;
+    
+}
+#jumb{
+	background-image: url("../../../img/fundo2.jpg");
+	background-size: 100%;
+	color: #fff;
+	
+}
+
+#rodape{
+	margin-top: 35px;
+}
+
+
